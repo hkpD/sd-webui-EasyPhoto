@@ -22,7 +22,7 @@ from scripts.sdwebui import get_checkpoint_type, unload_sd
 
 
 python_executable_path = sys.executable
-check_hash             = True
+check_hash             = False
 
 # Attention! Output of js is str or list, not float or int
 @unload_sd()
